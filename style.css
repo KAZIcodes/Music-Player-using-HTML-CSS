@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+    #0046ae, #9198e5
+}
+
+bigpart -> {
+    height: 400px;
+    width: 270px;
+    rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674)
+}
+
+while mouseover -> {
+   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+}
+
+
+music player part ->{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+song and the song writers -> {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+song writers -> {
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+song writers while mouseover{
+    color: #2e2e2e;
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+.back
+.for
+.play while mouseover -> {
+    border-color: #bebebe;
+}
