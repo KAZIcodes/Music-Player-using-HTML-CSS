@@ -27,26 +27,37 @@ img {
     height: 200px;
     width: 200px;
     margin-left: 35px;
-    margin-top: 45px;
+    margin-top: 10px;
     transition: 0.2s;
 }
 img:hover{
     box-shadow: 0.5px 0.5px 10px;
 }
 
-music player part ->{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-song and the song writers -> {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-song writers -> {
-    color: #666666;
-    font-size: smaller;
+p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MP {
+    color: #ffffff;
+    font-size: larger;
+    margin-left: 86px;
+    padding-top: 10px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.Sname {
+    color: #ffffff;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 3px 3px 20px black;
+}
+
+
+.SW {
+    color: #666666;
+    font-size: medium;
+    text-align: center;
+    text-shadow: 3px 3px 20px black;
 }
 
 song writers while mouseover{
