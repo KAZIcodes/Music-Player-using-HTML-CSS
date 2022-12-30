@@ -4,17 +4,21 @@
 
 html{
     height: 100%;
-    #0046ae, #9198e5
+    background-image: linear-gradient(#0046ae, #9198e5);
 }
 
-bigpart -> {
+div {
     height: 400px;
     width: 270px;
-    rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674)
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 20px black;
 }
 
-while mouseover -> {
-   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+div:hover {
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
 
 
