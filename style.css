@@ -58,10 +58,12 @@ p {
     font-size: medium;
     text-align: center;
     text-shadow: 3px 3px 20px black;
+    transition: 0.7s;
 }
 
-song writers while mouseover{
+.SW:hover {
     color: #2e2e2e;
+    cursor: pointer;
 }
 
 .play,
