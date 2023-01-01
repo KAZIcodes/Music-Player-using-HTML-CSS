@@ -27,7 +27,7 @@ img {
     height: 200px;
     width: 200px;
     margin-left: 35px;
-    margin-top: 10px;
+    margin-right: 35px;
     transition: 0.2s;
 }
 img:hover{
@@ -40,8 +40,9 @@ p {
 .MP {
     color: #ffffff;
     font-size: larger;
-    margin-left: 86px;
+    text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     text-shadow: 3px 3px 10px black;
 }
 
@@ -67,11 +68,13 @@ p {
 }
 pre{
     margin-left: 20px;
+    margin-right: 20px;
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .seek-bar {
     margin-left: 20px;
+    margin-right: 20px;
     font-size: larger;
 }
 
@@ -83,12 +86,27 @@ pre{
     height: 45px;
     border-radius: 50%;
     margin-top: 7px;
+    margin-bottom: 7px;
 }
+
 
 li {
     display: inline;
-    margin-right: 7px;
-    margin-left: 10px;
+}
+
+ul {
+    padding-left: 0px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.play {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.back {
+    margin-left: 12px;
 }
 
 
